@@ -1,0 +1,19 @@
+
+Read the following and follow @cc/01spec.md to understand what we want.
+
+-----------------------------------------------------
+When I ran "
+  curl -X POST http://localhost:8080 \
+  -H "Content-Type: application/json" \
+  -d '{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "method": "tools/call",
+  "params": {
+  "name": "query",
+  "arguments": {
+  "sql": "SELECT * FROM users LIMIT 5"
+  }
+  }
+  }'", the MCP server logged error message "thread 'tokio-runtime-worker' panicked at src/db.rs:113:22:
+  error retrieving column 5: error deserializing column 5"

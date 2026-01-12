@@ -8,7 +8,20 @@
       "Bash(open:*)",
       "Bash(chmod:*)",
       "Bash(cargo:*)",
-      "Bash(/Users/WChen/MCP/postgres-mcp-server-rust/target/release/postgres_mcp_server)"
+      "Bash(/Users/WChen/AI/MCP/postgres-mcp-server-rust/target/release/postgres_mcp_server)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust ls-files)",
+      "Bash(tree:*)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust status --porcelain)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust log --oneline -5)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:Cargo.toml)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:src/main.rs)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:README.md)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:docker-compose.yml)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:init.sql)",
+      "Bash(git -C /Users/WChen/AI/MCP/postgres-mcp-server-rust show HEAD:Cargo.lock)",
+      "WebSearch",
+      "WebFetch(domain:docs.rs)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
