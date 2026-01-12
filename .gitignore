@@ -18,7 +18,3 @@ Thumbs.db
 # Environment
 .env
 .env.local
-
-# Documentation (user notes)
-myNotes.md
-cc/00prompt.txt

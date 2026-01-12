@@ -1,0 +1,2 @@
+
+Read the following and follow @cc/00spec.md to understand what we want.
