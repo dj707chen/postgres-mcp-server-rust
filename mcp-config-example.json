@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "postgres-http-readonly": {
+      "command": "sh",
+      "args": ["-c", "export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/testdb && cargo run --release"],
+      "transport": {
+        "type": "http",
+        "url": "http://localhost:8080"
+      }
+    },
+    "postgres-http-write": {
+      "command": "sh",
+      "args": ["-c", "export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/testdb DANGEROUSLY_ALLOW_WRITE_OPS=true && cargo run --release"],
+      "transport": {
+        "type": "http",
+        "url": "http://localhost:8080"
+      }
+    }
+  }
+}
