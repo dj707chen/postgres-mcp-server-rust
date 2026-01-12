@@ -1,0 +1,29 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "content": [
+      {
+        "text": "[
+  {
+    "id": 2,
+    "active": true,
+    "created_at": null,
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "age": 35
+  },
+  {
+    "name": "Charlie Brown",
+    "id": 3,
+    "email": "charlie@example.com",
+    "active": false,
+    "created_at": null,
+    "age": 42
+  }
+]",
+        "type": "text"
+      }
+    ]
+  }
+}

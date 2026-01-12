@@ -1,0 +1,12 @@
+{
+  "jsonrpc":"2.0",
+  "id":1,
+  "result":{
+    "content":[
+        {
+            "text":"[\n  {\n    \"id\": 2,\n    \"active\": true,\n    \"created_at\": null,\n    \"name\": \"Bob Smith\",\n    \"email\": \"bob@example.com\",\n    \"age\": 35\n  },\n  {\n    \"name\": \"Charlie Brown\",\n    \"id\": 3,\n    \"email\": \"charlie@example.com\",\n    \"active\": false,\n    \"created_at\": null,\n    \"age\": 42\n  }\n]",
+            "type":"text"
+        }
+    ]
+  }
+}

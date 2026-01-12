@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(cargo init:*)",
+      "Bash(rustup:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(open:*)",
+      "Bash(chmod:*)",
+      "Bash(cargo:*)",
+      "Bash(/Users/WChen/MCP/postgres-mcp-server-rust/target/release/postgres_mcp_server)"
+    ]
+  }
+}
